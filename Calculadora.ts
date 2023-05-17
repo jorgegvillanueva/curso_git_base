@@ -4,14 +4,14 @@ class Calculadora {
     memo: number = 0;
     tempValue: number = 0;
 
-    suma(value: number): number {
+    suma(value: number): string {
         this.tempValue += value;
-        return this.tempValue;
+        return this.show();
     }
 
-    resta(value: number): number {
+    resta(value: number): string {
         this.tempValue -= value;
-        return this.tempValue;
+        return this.show();
     }
 
     show(): string {

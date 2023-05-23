@@ -2,7 +2,7 @@ import {formtDateNumber} from "./utils";
 
 
 /*
-rama main
+rama main paso 1
  */
 class Calculadora {
     memo: number = 0;

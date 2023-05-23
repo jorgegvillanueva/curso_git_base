@@ -1,5 +1,8 @@
 import {formtDateNumber} from "./utils";
 
+/*
+rama conflictiva
+ */
 class Calculadora {
     memo: number = 0;
     tempValue: number = 0;

@@ -1,5 +1,8 @@
 import {formtDateNumber} from "./utils";
 
+/*
+rama main
+ */
 class Calculadora {
     memo: number = 0;
     tempValue: number = 0;

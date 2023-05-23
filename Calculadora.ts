@@ -1,10 +1,5 @@
 import {formtDateNumber} from "./utils";
 
-
-/*
-rama main paso 2
-y con dos líneas
- */
 class Calculadora {
     memo: number = 0;
     tempValue: number = 0;
@@ -23,6 +18,3 @@ class Calculadora {
         return formtDateNumber(this.tempValue);
     }
 }
-/*
-comentario al final
- */
